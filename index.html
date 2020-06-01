@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="shortcut icon" href="" />
+    <script
+      src="https://kit.fontawesome.com/8a7adf38d3.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (min-width:768px)"
+      href="css/medium.css"
+    />
+  </head>
+  <body>
+    <main class="todo">
+      <div class="headerTitle">
+        <h1>Todo List</h1>
+        <p>Get things done, one item at a time.</p>
+        <div class="underline"></div>
+      </div>
+
+      <div class="todoList">
+        <ul class="taskList"></ul>
+      </div>
+
+      <div class="addArea">
+        <p class="addInfo">Add to the todo list:</p>
+        <input
+          type="text"
+          class="todoInput"
+          placeholder="Enter the task content..."
+        />
+        <button class="addBtn">Add</button>
+        <p class="emptyInpErr">Enter the correct task content!</p>
+      </div>
+    </main>
+
+    <div class="popup">
+      <h3>Edytuj zadanie:</h3>
+      <div class="popupBody">
+        <p class="popupInfo"></p>
+        <input
+          type="text"
+          class="popupInput"
+          placeholder="Enter the editted task content..."
+        />
+        <button class="popupBtn accept">Add</button>
+        <button class="popupBtn cancel">Cancel</button>
+      </div>
+    </div>
+  </body>
+  <script src="js/main.js"></script>
+</html>

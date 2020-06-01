@@ -1,0 +1,17 @@
+.todo {
+  width: 600px;
+}
+
+.popup {
+  width: 600px;
+}
+
+.popupBtn {
+  width: 30%;
+  padding: 10px 22px;
+  margin: 20px;
+}
+
+.tools {
+  flex-direction: row;
+}
